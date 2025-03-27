@@ -13,3 +13,7 @@
 #          - Find genetic differences that may contribute to ecotype-specific traits
 #  4) Phylogenetic Analysis and PCA 
 #          - Visualize genomic variation among ecotypes
+
+# DATA:
+#      reference genome -> PRJNA531206
+#      NCBI samples -> 
