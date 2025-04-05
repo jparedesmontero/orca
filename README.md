@@ -28,6 +28,11 @@ cd fastq
 #### 3 moving srr accessions into fastq directory
 mv srr_accessions_orca.txt fastq
 
+
+ #####
+ for acc in $(cat srr_accessions_orca.txt); do echo "Downloading $acc..."; fastq-dump --split-files --gzip $acc; done
+
+
 module load anaconda3
 
 conda create -n sra-tools -c bioconda -c conda-forge sra-tools
