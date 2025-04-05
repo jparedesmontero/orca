@@ -26,10 +26,7 @@ mkdir fastq
 ##### 2 
 cd fastq
 #### 3 moving srr accessions into fastq directory
-mv srr_accessions_orca.txt fastq/
-#### 4 downloading srr accessions into .fastq.gz
-for acc in $(cat srr_accessions_orca.txt); do     echo "Downloading $acc...";     fastq-dump --split-files --gzip $acc; done
-
+mv srr_accessions_orca.txt fastq
 
 module load anaconda3
 
