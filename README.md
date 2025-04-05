@@ -31,3 +31,5 @@ mv srr_accessions_orca.txt fastq/
 for acc in $(cat srr_accessions_orca.txt); do
     fasterq-dump $acc --split-files -O .
 done
+#### 5 
+for acc in $(cat srr_accessions_orca.txt); do     echo "Downloading $acc...";     fastq-dump --split-files --gzip $acc; done
