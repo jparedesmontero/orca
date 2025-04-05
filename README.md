@@ -17,3 +17,17 @@
 # DATA:
 #      reference genome -> PRJNA531206
 #      NCBI samples -> 
+
+
+
+
+##### 1
+mkdir fastq
+##### 2 
+cd fastq
+#### 3
+mv srr_accessions_orca.txt fastq/
+#### 4
+for acc in $(cat srr_accessions_orca.txt); do
+    fasterq-dump $acc --split-files -O .
+done
