@@ -15,8 +15,8 @@
 #          - Visualize genomic variation among ecotypes
 
 # DATA:
-#      reference genome -> PRJNA531206
-#      NCBI samples -> 
+#      reference genome -> 
+#       samples -> PRJNA531206
 
 
 
