@@ -1,0 +1,60 @@
+Run,sex,Ecotype,Standardized_Ecotype,age,geo_loc_name_country,geo_loc_name_country_continent,geo_loc_name,dev_stage,Collection_Date,BREED,Cultivar,isolate,strain,lat_lon
+SRR24181836,male,Icelandic herring-eating population,North Atlantic,,uncalculated,uncalculated,Atlantic Ocean: Vestmannaeyjar Iceland,adult,7/21/2016,,,,,
+SRR24181839,male,Iceland herring-eating population,North Atlantic,,uncalculated,uncalculated,Atlantic Ocean: Grundarfjordur Iceland,adult,3/29/2014,,,,,
+SRR24182389,male,Icelandic,North Atlantic,,uncalculated,uncalculated,Atlantic Ocean: Vestmannaeyjar Iceland,adult,7/7/2014,,,,,
+SRR24172360,male,Iceland,North Atlantic,missing,,,,,,,,,,
+SRR15276973,female,type D,Type D,,,,,adult,,,,,,
+SRR15311813,male,offshore,Offshore,missing,,,,,,,,,,
+SRR15311815,female,Maldives,Indian Ocean,missing,,,,,,,,,,
+SRR15311817,male,Southern Ocean,Type B or C,missing,,,,,,,,,,
+SRR15311819,female,Southern Ocean,Type B or C,missing,,,,,,,,,,
+SRR15311822,male,Antarctic Peninsula,Type B or C,missing,,,,,,,,,,
+SRR15311824,male,Crozet Archipelago,Type B or C,missing,,,,,,,,,,
+SRR15311826,male,"Bremer Canyon, S.W. Australia",Southwestern Australia,missing,,,,,,,,,,
+SRR15311828,male,"Ningaloo, W. Australia",Northwestern Australia,missing,,,,,,,,,,
+SRR15311831,male,New Zealand,North Atlantic,missing,,,,,,,,,,
+SRR15311832,male,Chatham Isles,Eastern Australia,missing,,,,,,,,,,
+SRR15311834,male,Hawaii,Hawaii,missing,,,,,,,,,,
+SRR15311836,male,Brazil,Tropical Atlantic,missing,,,,,,,,,,
+SRR15311837,male,Gabon,Tropical Atlantic,missing,,,,,,,,,,
+SRR15311839,male,Gulf of Mexico,Gulf of Mexico,missing,,,,,,,,,,
+SRR15311842,male,Strait of Gibraltar,North Atlantic,missing,,,,,,,,,,
+SRR15311843,female,Scotland,North Atlantic,missing,,,,,,,,,,
+SRR15311846,male,Mexico Pacific,Mexico Pacific,missing,,,,,,,,,,
+SRR15311847,male,Clipperton Island,Mexico Pacific,missing,,,,,,,,,,
+SRR15311849,female,Newfoundland,North Atlantic,missing,,,,,,,,,,
+SRR15311852,male,Iceland,North Atlantic,missing,,,,,,,,,,
+SRR8861574,male,Mexico Pacific,Mexico Pacific,missing,,,,,,,,,,
+SRR8861575,male,Hawaii,Hawaii,missing,,,,,,,,,,
+SRR8861576,male,Brazil,Tropical Atlantic,missing,,,,,,,,,,
+SRR8861577,male,offshore,Offshore,missing,,,,,,,,,,
+SRR8861578,male,New Zealand,Eastern Australia,missing,,,,,,,,,,
+SRR8861579,male,Antarctic Peninsula,Type B or C,missing,,,,,,,,,,
+SRR8861580,female,Maldives,Indian Ocean,missing,,,,,,,,,,
+SRR8861581,female,Newfoundland,North Atlantic,missing,,,,,,,,,,
+SRR8861582,female,Southern Ocean,Type B or C,missing,,,,,,,,,,
+SRR8861583,male,Chatham Isles,Eastern Australia,missing,,,,,,,,,,
+SRR8861584,male,Gabon,Tropical Atlantic,missing,,,,,,,,,,
+SRR8861585,male,Southern Ocean,Type B or C,missing,,,,,,,,,,
+SRR8861588,male,Strait of Gibraltar,North Atlantic,missing,,,,,,,,,,
+SRR8861589,male,"Ningaloo, W. Australia",Northwestern Australia,missing,,,,,,,,,,
+SRR8861590,male,Crozet Archipelago,Type B or C,missing,,,,,,,,,,
+SRR8861591,male,"Bremer Canyon, S.W. Australia",Southwestern Australia,missing,,,,,,,,,,
+SRR8861592,female,Scotland,North Atlantic,missing,,,,,,,,,,
+SRR8861594,male,Iceland,North Atlantic,missing,,,,,,,,,,
+SRR15236557,female,Maldives,Indian Ocean,missing,,,,,,,,,,
+SRR15236562,male,Southern Ocean,Type B or C,missing,,,,,,,,,,
+SRR15236563,female,Southern Ocean,Type B or C,missing,,,,,,,,,,
+SRR15236565,male,"Bremer Canyon, S.W. Australia",Southwestern Australia,missing,,,,,,,,,,
+SRR26406890,female,Eastern Australia,Eastern Australia,Subadult,Australia,Oceania,Australia: Queensland,,3/7/2013,not collected,not collected,not collected,not collected,25.60 S 153.02 E
+SRR26406892,female,Ningaloo,Northwestern Australia,,Australia,Oceania,Australia: Northwestern Australia,,7/17/2015,,,,,
+SRR26406909,female,Southwestern Australia,Southwestern Australia,,Australia,Oceania,Australia: Southwestern Australia,,3/19/2018,not collected,not collected,not collected,not collected,35.46 S 119.36 E
+SRR26406912,male,Southwestern Australia,Southwestern Australia,,Australia,Oceania,Australia: Southwestern Australia,,1/31/2017,not collected,not collected,not collected,not collected,35.46 S 119.36 E
+SRR26406914,female,Southwestern Australia,Southwestern Australia,,Australia,Oceania,Australia: Southwestern Australia,,4/2/2016,not collected,not collected,not collected,not collected,35.46 S 119.36 E
+SRR26406885,male,Southwestern Australia,Southwestern Australia,,Australia,Oceania,Australia: Southwestern Australia,,2/7/2015,not collected,not collected,not collected,not collected,35.46 S 119.36 E
+SRR26406898,male,Northwestern Australia,Northwestern Australia,,Australia,Oceania,Australia: Northwestern Australia,,8/10/2016,not collected,not collected,not collected,not collected,21.97 S 113.86 E
+SRR26406900,female,Northwestern Australia,Northwestern Australia,,Australia,Oceania,Australia: Northwestern Australia,,7/31/2014,not collected,not collected,not collected,not collected,21.70 S 113.96 E
+SRR26406901,female,Northwestern Australia,Northwestern Australia,,Australia,Oceania,Australia: Northwestern Australia,,7/31/2014,not collected,not collected,not collected,not collected,21.86 S 113.97 E
+SRR26406903,male,Northwestern Australia,Northwestern Australia,,Australia,Oceania,Australia: Northwestern Australia,,7/4/2014,not collected,not collected,not collected,not collected,22.05 S 113.86 E
+SRR26406904,male,Eastern Australia,Eastern Australia,Adult,Australia,Oceania,Australia: Tasmania,,1/19/2019,not collected,not collected,not collected,not collected,42.85 S 147.5 E
+SRR26406907,female,Southwestern Australia,Southwestern Australia,,Australia,Oceania,Australia: Southwestern Australia,,3/27/2019,not collected,not collected,not collected,not collected,34.76 S 119.61 E
