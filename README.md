@@ -29,3 +29,19 @@ cd fastq
 mv srr_accessions_orca.txt fastq/
 #### 4 downloading srr accessions into .fastq.gz
 for acc in $(cat srr_accessions_orca.txt); do     echo "Downloading $acc...";     fastq-dump --split-files --gzip $acc; done
+
+
+module load anaconda3
+
+conda create -n sra-tools -c bioconda -c conda-forge sra-tools
+conda activate sra-tools
+
+Now you can run fasterq-dump in different CPUs, but first ask the HPC for 16 CPUs for starters:
+
+salloc --cpus-per-task=16 --mem=16G --time=2:00:00
+
+Now run fasterq-dump:
+
+fasterq-dump SRR* -e 8 -O fastq_dir/
+
+Your fastq.gz files will be stored in this folder: fastq_dir
