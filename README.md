@@ -1,7 +1,13 @@
 # Orca_Final_Project
 ---
-'''
+```
 cd /ocean/projects/agr250001p/shared/orcas
+```
+
+```
+module load anaconda3
+conda create -n sra-tools -c bioconda -c conda-forge sra-tools
+conda activate sra-tools
 
 ---
 
