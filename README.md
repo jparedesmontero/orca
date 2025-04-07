@@ -25,6 +25,10 @@ mv GCF_937001465.1_mOrcOrc1.1_genomic.fna reference.fasta
 myocean
 ln -s /ocean/projects/agr250001p/shared/orcas/fastq_files .
 ```
+#### Confirm your symlink was created
+```
+ls
+```
 #use Bowtie2 to assemble genomes
 ```
 vim assembly.slurm
@@ -39,7 +43,7 @@ vim assembly.slurm
 #SBATCH --array=0-58
 #SBATCH --time=1-00:00:00
 #SBATCH --output=logs/bowtie.out
-#SBATCH --mail-user=your.email@svsu.edu
+#SBATCH --mail-user=akmedler@svsu.edu
 #SBATCH --mail-type=ALL
 
 #Define samples names
@@ -73,6 +77,21 @@ bcftools index ${SAMPLE}.vcf.gz
 
 echo "Pipeline completed successfully!"
 ```
+- Execute
+
+```
+sbatch assembly.slurm
+```
+
+---
+# Look for selection across genes
+- Download gene annotations
+```
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/937/001/465/GCF_937001465.1_mOrcOrc1.1/GCF_937001465.1_mOrcOrc1.1_genomic.gff.gz
+unzip GCF_937001465.1_mOrcOrc1.1_genomic.gff.gz
+mv GCF_937001465.1_mOrcOrc1.1_genomic.gff annotations.gff
+```
+---
 
 
 
