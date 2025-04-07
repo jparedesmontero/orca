@@ -1,5 +1,6 @@
 # Orca_Final_Project
 ---
+# DONE IN SHARED FOLDER
 ```
 cd /ocean/projects/agr250001p/shared/orcas
 ```
@@ -8,8 +9,70 @@ cd /ocean/projects/agr250001p/shared/orcas
 module load anaconda3
 conda create -n sra-tools -c bioconda -c conda-forge sra-tools
 conda activate sra-tools
-
+```
+#Add download.sh script here
+#Downlaod orca reference from NCBI
+```
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/937/001/465/GCF_937001465.1_mOrcOrc1.1/GCF_937001465.1_mOrcOrc1.1_genomic.fna.gz
+unzip  GCF_937001465.1_mOrcOrc1.1_genomic.fna.gz
+mv GCF_937001465.1_mOrcOrc1.1_genomic.fna reference.fasta
+```
 ---
+# THESE STEPS ARE RUN IN YOUR OCEAN FOLDER
+#Data is in the shared folder
+#Create symlink to use data from your ocean folder
+```
+myocean
+ln -s /ocean/projects/agr250001p/shared/orcas/fastq_files .
+```
+#use Bowtie2 to assemble genomes
+```
+vim assembly.slurm
+```
+- Type `I`
+
+```
+#!/bin/bash
+#SBATCH --job-name=orca_genome_assembly
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=32G
+#SBATCH --array=0-58
+#SBATCH --time=1-00:00:00
+#SBATCH --output=logs/bowtie.out
+#SBATCH --mail-user=your.email@svsu.edu
+#SBATCH --mail-type=ALL
+
+#Define samples names
+SAMPLES=($(ls fastq_files/*_1.fastq | sed 's|.*/||' | sed 's/_1.fastq//' | sort))
+# Get sample name for this task ID
+SAMPLE=${SAMPLES[$SLURM_ARRAY_TASK_ID]}
+
+echo "Processing $SAMPLE..."
+
+module load bowtie2
+bowtie2 --very-fast-local -p 16 -x orca_index -1 fastq_files/${SAMPLE}_1.fastq -2 fastq_files/${SAMPLE}_2.fastq -S ${SAMPLE}.sam
+
+module load samtools
+
+echo "Converting and Sorting BAM in one step..."
+samtools view -@ 16 -bS ${SAMPLE}.sam | samtools sort -@ 16 -m 16G -T /scratch/tmp_sort -o ${SAMPLE}.bam
+rm ${SAMPLE}.sam
+
+echo "Indexing BAM file..."
+samtools index ${SAMPLE}.bam
+
+echo "Calling SNPs with BCFtools..."
+bcftools mpileup -Ou -f reference.fasta ${SAMPLE}.bam | bcftools call -mv -Ob -o ${SAMPLE}.bcf
+
+echo "Converting BCF to VCF..."
+bcftools view -Ov -o ${SAMPLE}.vcf ${SAMPLE}.bcf
+
+echo "Compressing and indexing VCF..."
+bgzip -c ${SAMPLE}.vcf > ${SAMPLE}.vcf.gz
+bcftools index ${SAMPLE}.vcf.gz
+
+echo "Pipeline completed successfully!"
+```
 
 
 
