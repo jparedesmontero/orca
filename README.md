@@ -1,4 +1,11 @@
 # Orca_Final_Project
+---
+'''
+cd /ocean/projects/agr250001p/shared/orcas
+
+---
+
+
 
 ### This project will analyze which genese are under positive selection in orcas whales, and what roles they play in unique traits, such as social behaviors and hunting strategies.
 
