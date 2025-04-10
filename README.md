@@ -97,8 +97,91 @@ unzip GCF_937001465.1_mOrcOrc1.1_genomic.gff.gz
 mv GCF_937001465.1_mOrcOrc1.1_genomic.gff annotations.gff
 ```
 ---
+# Index VCF files 
+tabix -p vcf input.vcf.gz
 
+# make BED of gene region
+# extract only gene lines, convert to 0‑based BED
+grep -P "\tgene\t" genes.gff3 \
+  | awk 'BEGIN{FS=OFS="\t"}{
+      # parse ID from the 9th column
+      split($9,a,";"); 
+      id=a[1]; gsub("ID=","",id);
+      print $1, $4-1, $5, id
+    }' > genes.bed
+# List sample populations
+# one sample name per line, matching the VCF header
+pop1.txt  
+pop2.txt
 
+# Install dependencies 
+pip install scikit-allel numpy pandas
+
+# The script 
+#!/usr/bin/env python3
+import allel
+import numpy as np
+import pandas as pd
+import sys
+
+# --- User parameters ---
+vcf_path   = 'input.vcf.gz'
+genes_bed  = 'genes.bed'
+pop1_file  = 'pop1.txt'
+pop2_file  = 'pop2.txt'
+out_csv    = 'gene_fst.csv'
+# -----------------------
+
+# Load sample lists
+pop1 = [s.strip() for s in open(pop1_file) if s.strip()]
+pop2 = [s.strip() for s in open(pop2_file) if s.strip()]
+
+# Read gene coordinates
+genes = pd.read_csv(genes_bed, sep='\t',
+                    names=['chrom','start','end','gene'],
+                    dtype={'chrom':str, 'start':int, 'end':int, 'gene':str})
+
+# Read VCF (only once!)
+print("Loading VCF…")
+callset = allel.read_vcf(vcf_path,
+                          fields=['samples','calldata/GT','variants/CHROM','variants/POS'])
+samples   = callset['samples']
+genos     = allel.GenotypeArray(callset['calldata/GT'])
+chroms    = callset['variants/CHROM']
+positions = callset['variants/POS']
+
+# Map sample names → indices
+pop1_idx = [i for i,s in enumerate(samples) if s in pop1]
+pop2_idx = [i for i,s in enumerate(samples) if s in pop2]
+if not pop1_idx or not pop2_idx:
+    sys.exit("Error: could not match any samples in pop1 or pop2.")
+
+# Prepare output
+results = []
+
+print("Computing FST per gene…")
+for _, row in genes.iterrows():
+    chrom, start, end, gene_id = row
+    # mask SNPs in this gene
+    m = (chroms == chrom) & (positions >= start) & (positions <= end)
+    if m.sum() == 0:
+        fst_val = np.nan
+    else:
+        subgeno = genos[m]
+        # allele counts per subpop
+        ac1 = subgeno.count_alleles(subpop=pop1_idx)
+        ac2 = subgeno.count_alleles(subpop=pop2_idx)
+        # compute per-site numerator & denominator
+        num, den = allel.weir_cockerham_fst(ac1, ac2)
+        # weighted FST = sum(num) / sum(den)
+        fst_val = np.sum(num) / np.sum(den) if den.sum() > 0 else np.nan
+    results.append((gene_id, fst_val))
+
+# Write out
+df = pd.DataFrame(results, columns=['gene','fst'])
+df.to_csv(out_csv, index=False)
+print(f"Done → {out_csv}")
+---
 
 ### This project will analyze which genese are under positive selection in orcas whales, and what roles they play in unique traits, such as social behaviors and hunting strategies.
 
@@ -114,37 +197,8 @@ mv GCF_937001465.1_mOrcOrc1.1_genomic.gff annotations.gff
 #  4) Phylogenetic Analysis and PCA 
 #          - Visualize genomic variation among ecotypes
 
-# DATA:
-#      reference genome -> 
-#       samples -> PRJNA531206
 
 
 
 
-##### 1 creating space for fastq files
-mkdir fastq
-##### 2 
-cd fastq
-#### 3 moving srr accessions into fastq directory
-mv srr_accessions_orca.txt fastq
 
-
- #####
- for acc in $(cat srr_accessions_orca.txt); do echo "Downloading $acc..."; fastq-dump --split-files --gzip $acc; done
-
-
-module load anaconda3
-
-conda create -n sra-tools -c bioconda -c conda-forge sra-tools
-
-conda activate sra-tools
-
-Now you can run fasterq-dump in different CPUs, but first ask the HPC for 16 CPUs for starters:
-
-salloc --cpus-per-task=16 --mem=16G --time=2:00:00
-
-Now run fasterq-dump:
-
-fasterq-dump fastq_files/SRR* -e 8 -O fastq_dir/
-
-Your fastq.gz files will be stored in this folder: fastq_dir
