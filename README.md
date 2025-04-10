@@ -29,7 +29,12 @@ ln -s /ocean/projects/agr250001p/shared/orcas/fastq_files .
 ```
 ls
 ```
-#use Bowtie2 to assemble genomes
+# Use Bowtie2 to assemble genomes
+- Build bowtie index
+```
+bowtie2-build reference.fasta orca_index
+```
+- Create script to run bowtie
 ```
 vim assembly.slurm
 ```
