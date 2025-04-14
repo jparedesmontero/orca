@@ -62,6 +62,7 @@ module load bowtie2
 bowtie2 --very-fast-local -p 16 -x orca_index -1 fastq_files/${SAMPLE}_1.fastq -2 fastq_files/${SAMPLE}_2.fastq -S ${SAMPLE}.sam
 
 module load samtools
+module load bcftools
 
 echo "Converting and Sorting BAM in one step..."
 samtools view -@ 16 -bS ${SAMPLE}.sam | samtools sort -@ 16 -m 16G -T /scratch/tmp_sort -o ${SAMPLE}.bam
@@ -93,7 +94,7 @@ sbatch assembly.slurm
 - Download gene annotations
 ```
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/937/001/465/GCF_937001465.1_mOrcOrc1.1/GCF_937001465.1_mOrcOrc1.1_genomic.gff.gz
-unzip GCF_937001465.1_mOrcOrc1.1_genomic.gff.gz
+gunzip GCF_937001465.1_mOrcOrc1.1_genomic.gff.gz
 mv GCF_937001465.1_mOrcOrc1.1_genomic.gff annotations.gff
 ```
 ---
@@ -102,7 +103,7 @@ tabix -p vcf input.vcf.gz
 
 # make BED of gene region
 # extract only gene lines, convert to 0‑based BED
-grep -P "\tgene\t" genes.gff3 \
+grep -P "\tgene\t" annotations.gff \
   | awk 'BEGIN{FS=OFS="\t"}{
       # parse ID from the 9th column
       split($9,a,";"); 
