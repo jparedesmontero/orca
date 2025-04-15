@@ -14,7 +14,7 @@ conda activate sra-tools
 #Downlaod orca reference from NCBI
 ```
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/937/001/465/GCF_937001465.1_mOrcOrc1.1/GCF_937001465.1_mOrcOrc1.1_genomic.fna.gz
-unzip  GCF_937001465.1_mOrcOrc1.1_genomic.fna.gz
+gunzip  GCF_937001465.1_mOrcOrc1.1_genomic.fna.gz
 mv GCF_937001465.1_mOrcOrc1.1_genomic.fna reference.fasta
 ```
 ---
@@ -63,6 +63,7 @@ bowtie2 --very-fast-local -p 16 -x orca_index -1 fastq_files/${SAMPLE}_1.fastq -
 
 module load samtools
 module load bcftools
+module load htslib
 
 echo "Converting and Sorting BAM in one step..."
 samtools view -@ 16 -bS ${SAMPLE}.sam | samtools sort -@ 16 -m 16G -T /scratch/tmp_sort -o ${SAMPLE}.bam
