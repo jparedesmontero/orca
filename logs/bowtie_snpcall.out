@@ -1,4 +1,999 @@
 Processing SRR8861594...
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+16592894 reads; of these:
+  16592894 (100.00%) were paired; of these:
+    1697259 (10.23%) aligned concordantly 0 times
+    7395534 (44.57%) aligned concordantly exactly 1 time
+    7500101 (45.20%) aligned concordantly >1 times
+    ----
+    1697259 pairs aligned concordantly 0 times; of these:
+      228817 (13.48%) aligned discordantly 1 time
+    ----
+    1468442 pairs aligned 0 times concordantly or discordantly; of these:
+      2936884 mates make up the pairs; of these:
+        1243104 (42.33%) aligned 0 times
+        353644 (12.04%) aligned exactly 1 time
+        1340136 (45.63%) aligned >1 times
+96.25% overall alignment rate
+Converting and sorting BAM in one step...
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+Indexing BAM file...
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+25830009 reads; of these:
+  25830009 (100.00%) were paired; of these:
+    3738601 (14.47%) aligned concordantly 0 times
+    13576660 (52.56%) aligned concordantly exactly 1 time
+    8514748 (32.96%) aligned concordantly >1 times
+    ----
+    3738601 pairs aligned concordantly 0 times; of these:
+      1330328 (35.58%) aligned discordantly 1 time
+    ----
+    2408273 pairs aligned 0 times concordantly or discordantly; of these:
+      4816546 mates make up the pairs; of these:
+        688961 (14.30%) aligned 0 times
+        1121138 (23.28%) aligned exactly 1 time
+        3006447 (62.42%) aligned >1 times
+98.67% overall alignment rate
+Converting and sorting BAM in one step...
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+26755771 reads; of these:
+  26755771 (100.00%) were paired; of these:
+    3365034 (12.58%) aligned concordantly 0 times
+    14628534 (54.67%) aligned concordantly exactly 1 time
+    8762203 (32.75%) aligned concordantly >1 times
+    ----
+    3365034 pairs aligned concordantly 0 times; of these:
+      1423843 (42.31%) aligned discordantly 1 time
+    ----
+    1941191 pairs aligned 0 times concordantly or discordantly; of these:
+      3882382 mates make up the pairs; of these:
+        603621 (15.55%) aligned 0 times
+        705424 (18.17%) aligned exactly 1 time
+        2573337 (66.28%) aligned >1 times
+98.87% overall alignment rate
+Converting and sorting BAM in one step...
+Indexing BAM file...
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+Indexing BAM file...
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+26262734 reads; of these:
+  26262734 (100.00%) were paired; of these:
+    371944 (1.42%) aligned concordantly 0 times
+    16052223 (61.12%) aligned concordantly exactly 1 time
+    9838567 (37.46%) aligned concordantly >1 times
+    ----
+    371944 pairs aligned concordantly 0 times; of these:
+      51361 (13.81%) aligned discordantly 1 time
+    ----
+    320583 pairs aligned 0 times concordantly or discordantly; of these:
+      641166 mates make up the pairs; of these:
+        400108 (62.40%) aligned 0 times
+        66411 (10.36%) aligned exactly 1 time
+        174647 (27.24%) aligned >1 times
+99.24% overall alignment rate
+Converting and sorting BAM in one step...
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+26685156 reads; of these:
+  26685156 (100.00%) were paired; of these:
+    315451 (1.18%) aligned concordantly 0 times
+    16189793 (60.67%) aligned concordantly exactly 1 time
+    10179912 (38.15%) aligned concordantly >1 times
+    ----
+    315451 pairs aligned concordantly 0 times; of these:
+      66421 (21.06%) aligned discordantly 1 time
+    ----
+    249030 pairs aligned 0 times concordantly or discordantly; of these:
+      498060 mates make up the pairs; of these:
+        251266 (50.45%) aligned 0 times
+        63496 (12.75%) aligned exactly 1 time
+        183298 (36.80%) aligned >1 times
+99.53% overall alignment rate
+Converting and sorting BAM in one step...
+26722790 reads; of these:
+  26722790 (100.00%) were paired; of these:
+    3633770 (13.60%) aligned concordantly 0 times
+    14984880 (56.08%) aligned concordantly exactly 1 time
+    8104140 (30.33%) aligned concordantly >1 times
+    ----
+    3633770 pairs aligned concordantly 0 times; of these:
+      1538129 (42.33%) aligned discordantly 1 time
+    ----
+    2095641 pairs aligned 0 times concordantly or discordantly; of these:
+      4191282 mates make up the pairs; of these:
+        612207 (14.61%) aligned 0 times
+        913938 (21.81%) aligned exactly 1 time
+        2665137 (63.59%) aligned >1 times
+98.85% overall alignment rate
+Converting and sorting BAM in one step...
+28935849 reads; of these:
+  28935849 (100.00%) were paired; of these:
+    365621 (1.26%) aligned concordantly 0 times
+    17720436 (61.24%) aligned concordantly exactly 1 time
+    10849792 (37.50%) aligned concordantly >1 times
+    ----
+    365621 pairs aligned concordantly 0 times; of these:
+      63828 (17.46%) aligned discordantly 1 time
+    ----
+    301793 pairs aligned 0 times concordantly or discordantly; of these:
+      603586 mates make up the pairs; of these:
+        317132 (52.54%) aligned 0 times
+        81655 (13.53%) aligned exactly 1 time
+        204799 (33.93%) aligned >1 times
+99.45% overall alignment rate
+Converting and sorting BAM in one step...
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+Indexing BAM file...
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+Indexing BAM file...
+Indexing BAM file...
+Indexing BAM file...
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+31456756 reads; of these:
+  31456756 (100.00%) were paired; of these:
+    295797 (0.94%) aligned concordantly 0 times
+    20150985 (64.06%) aligned concordantly exactly 1 time
+    11009974 (35.00%) aligned concordantly >1 times
+    ----
+    295797 pairs aligned concordantly 0 times; of these:
+      61628 (20.83%) aligned discordantly 1 time
+    ----
+    234169 pairs aligned 0 times concordantly or discordantly; of these:
+      468338 mates make up the pairs; of these:
+        227538 (48.58%) aligned 0 times
+        70091 (14.97%) aligned exactly 1 time
+        170709 (36.45%) aligned >1 times
+99.64% overall alignment rate
+Converting and sorting BAM in one step...
+29669137 reads; of these:
+  29669137 (100.00%) were paired; of these:
+    383502 (1.29%) aligned concordantly 0 times
+    18569198 (62.59%) aligned concordantly exactly 1 time
+    10716437 (36.12%) aligned concordantly >1 times
+    ----
+    383502 pairs aligned concordantly 0 times; of these:
+      119461 (31.15%) aligned discordantly 1 time
+    ----
+    264041 pairs aligned 0 times concordantly or discordantly; of these:
+      528082 mates make up the pairs; of these:
+        202905 (38.42%) aligned 0 times
+        79170 (14.99%) aligned exactly 1 time
+        246007 (46.59%) aligned >1 times
+99.66% overall alignment rate
+Converting and sorting BAM in one step...
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+30874736 reads; of these:
+  30874736 (100.00%) were paired; of these:
+    337900 (1.09%) aligned concordantly 0 times
+    19335517 (62.63%) aligned concordantly exactly 1 time
+    11201319 (36.28%) aligned concordantly >1 times
+    ----
+    337900 pairs aligned concordantly 0 times; of these:
+      91799 (27.17%) aligned discordantly 1 time
+    ----
+    246101 pairs aligned 0 times concordantly or discordantly; of these:
+      492202 mates make up the pairs; of these:
+        192069 (39.02%) aligned 0 times
+        76932 (15.63%) aligned exactly 1 time
+        223201 (45.35%) aligned >1 times
+99.69% overall alignment rate
+Converting and sorting BAM in one step...
+Indexing BAM file...
+Indexing BAM file...
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+31463341 reads; of these:
+  31463341 (100.00%) were paired; of these:
+    2876608 (9.14%) aligned concordantly 0 times
+    18219817 (57.91%) aligned concordantly exactly 1 time
+    10366916 (32.95%) aligned concordantly >1 times
+    ----
+    2876608 pairs aligned concordantly 0 times; of these:
+      1226809 (42.65%) aligned discordantly 1 time
+    ----
+    1649799 pairs aligned 0 times concordantly or discordantly; of these:
+      3299598 mates make up the pairs; of these:
+        555296 (16.83%) aligned 0 times
+        617423 (18.71%) aligned exactly 1 time
+        2126879 (64.46%) aligned >1 times
+99.12% overall alignment rate
+Converting and sorting BAM in one step...
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+Indexing BAM file...
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+31554162 reads; of these:
+  31554162 (100.00%) were paired; of these:
+    448851 (1.42%) aligned concordantly 0 times
+    19409149 (61.51%) aligned concordantly exactly 1 time
+    11696162 (37.07%) aligned concordantly >1 times
+    ----
+    448851 pairs aligned concordantly 0 times; of these:
+      149761 (33.37%) aligned discordantly 1 time
+    ----
+    299090 pairs aligned 0 times concordantly or discordantly; of these:
+      598180 mates make up the pairs; of these:
+        205356 (34.33%) aligned 0 times
+        90088 (15.06%) aligned exactly 1 time
+        302736 (50.61%) aligned >1 times
+99.67% overall alignment rate
+Converting and sorting BAM in one step...
+Indexing BAM file...
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+33329233 reads; of these:
+  33329233 (100.00%) were paired; of these:
+    339861 (1.02%) aligned concordantly 0 times
+    20927519 (62.79%) aligned concordantly exactly 1 time
+    12061853 (36.19%) aligned concordantly >1 times
+    ----
+    339861 pairs aligned concordantly 0 times; of these:
+      83623 (24.61%) aligned discordantly 1 time
+    ----
+    256238 pairs aligned 0 times concordantly or discordantly; of these:
+      512476 mates make up the pairs; of these:
+        197350 (38.51%) aligned 0 times
+        90935 (17.74%) aligned exactly 1 time
+        224191 (43.75%) aligned >1 times
+99.70% overall alignment rate
+Converting and sorting BAM in one step...
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+29473407 reads; of these:
+  29473407 (100.00%) were paired; of these:
+    360432 (1.22%) aligned concordantly 0 times
+    18528944 (62.87%) aligned concordantly exactly 1 time
+    10584031 (35.91%) aligned concordantly >1 times
+    ----
+    360432 pairs aligned concordantly 0 times; of these:
+      123437 (34.25%) aligned discordantly 1 time
+    ----
+    236995 pairs aligned 0 times concordantly or discordantly; of these:
+      473990 mates make up the pairs; of these:
+        158655 (33.47%) aligned 0 times
+        73910 (15.59%) aligned exactly 1 time
+        241425 (50.93%) aligned >1 times
+99.73% overall alignment rate
+Converting and sorting BAM in one step...
+Indexing BAM file...
+60161298 reads; of these:
+  60161298 (100.00%) were paired; of these:
+    754116 (1.25%) aligned concordantly 0 times
+    37864055 (62.94%) aligned concordantly exactly 1 time
+    21543127 (35.81%) aligned concordantly >1 times
+    ----
+    754116 pairs aligned concordantly 0 times; of these:
+      94181 (12.49%) aligned discordantly 1 time
+    ----
+    659935 pairs aligned 0 times concordantly or discordantly; of these:
+      1319870 mates make up the pairs; of these:
+        767899 (58.18%) aligned 0 times
+        223187 (16.91%) aligned exactly 1 time
+        328784 (24.91%) aligned >1 times
+99.36% overall alignment rate
+Converting and sorting BAM in one step...
+58907743 reads; of these:
+  58907743 (100.00%) were paired; of these:
+    928350 (1.58%) aligned concordantly 0 times
+    38507694 (65.37%) aligned concordantly exactly 1 time
+    19471699 (33.05%) aligned concordantly >1 times
+    ----
+    928350 pairs aligned concordantly 0 times; of these:
+      102414 (11.03%) aligned discordantly 1 time
+    ----
+    825936 pairs aligned 0 times concordantly or discordantly; of these:
+      1651872 mates make up the pairs; of these:
+        1041739 (63.06%) aligned 0 times
+        262631 (15.90%) aligned exactly 1 time
+        347502 (21.04%) aligned >1 times
+99.12% overall alignment rate
+Converting and sorting BAM in one step...
+29396236 reads; of these:
+  29396236 (100.00%) were paired; of these:
+    320783 (1.09%) aligned concordantly 0 times
+    18300840 (62.26%) aligned concordantly exactly 1 time
+    10774613 (36.65%) aligned concordantly >1 times
+    ----
+    320783 pairs aligned concordantly 0 times; of these:
+      81325 (25.35%) aligned discordantly 1 time
+    ----
+    239458 pairs aligned 0 times concordantly or discordantly; of these:
+      478916 mates make up the pairs; of these:
+        214717 (44.83%) aligned 0 times
+        67739 (14.14%) aligned exactly 1 time
+        196460 (41.02%) aligned >1 times
+99.63% overall alignment rate
+Converting and sorting BAM in one step...
+Indexing BAM file...
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+/opt/packages/samtools/1.21/samtools: line 26:  8111 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+Indexing BAM file...
+[E::hts_open_format] Failed to open file "SRR8861574.bam" : No such file or directory
+samtools index: failed to open "SRR8861574.bam": No such file or directory
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[E::hts_open_format] Failed to open file "SRR8861574.bam" : No such file or directory
+[mpileup] failed to open SRR8861574.bam: No such file or directory
+Failed to read from standard input: unknown file type
+Converting BCF to VCF...
+[E::hts_open_format] Failed to open file "SRR8861574.bcf" : No such file or directory
+Failed to read from SRR8861574.bcf: No such file or directory
+Compressing and indexing VCF...
+[bgzip] No such file or directory: SRR8861574.vcf
+index: the file is not BGZF compressed, cannot index: SRR8861574.vcf.gz
+Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435444.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+/opt/packages/samtools/1.21/samtools: line 26: 16506 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+Indexing BAM file...
+[E::hts_open_format] Failed to open file "SRR8861575.bam" : No such file or directory
+samtools index: failed to open "SRR8861575.bam": No such file or directory
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[E::hts_open_format] Failed to open file "SRR8861575.bam" : No such file or directory
+[mpileup] failed to open SRR8861575.bam: No such file or directory
+Failed to read from standard input: unknown file type
+Converting BCF to VCF...
+[E::hts_open_format] Failed to open file "SRR8861575.bcf" : No such file or directory
+Failed to read from SRR8861575.bcf: No such file or directory
+Compressing and indexing VCF...
+[bgzip] No such file or directory: SRR8861575.vcf
+index: the file is not BGZF compressed, cannot index: SRR8861575.vcf.gz
+Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435466.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+34264319 reads; of these:
+  34264319 (100.00%) were paired; of these:
+    419536 (1.22%) aligned concordantly 0 times
+    20949361 (61.14%) aligned concordantly exactly 1 time
+    12895422 (37.64%) aligned concordantly >1 times
+    ----
+    419536 pairs aligned concordantly 0 times; of these:
+      103907 (24.77%) aligned discordantly 1 time
+    ----
+    315629 pairs aligned 0 times concordantly or discordantly; of these:
+      631258 mates make up the pairs; of these:
+        306749 (48.59%) aligned 0 times
+        79997 (12.67%) aligned exactly 1 time
+        244512 (38.73%) aligned >1 times
+99.55% overall alignment rate
+Converting and sorting BAM in one step...
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+Indexing BAM file...
+Converting BCF to VCF...
+Compressing and indexing VCF...
+Pipeline completed successfully!
+Indexing BAM file...
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+Converting BCF to VCF...
+Compressing and indexing VCF...
+36658875 reads; of these:
+  36658875 (100.00%) were paired; of these:
+    6510397 (17.76%) aligned concordantly 0 times
+    19563786 (53.37%) aligned concordantly exactly 1 time
+    10584692 (28.87%) aligned concordantly >1 times
+    ----
+    6510397 pairs aligned concordantly 0 times; of these:
+      2711730 (41.65%) aligned discordantly 1 time
+    ----
+    3798667 pairs aligned 0 times concordantly or discordantly; of these:
+      7597334 mates make up the pairs; of these:
+        1237953 (16.29%) aligned 0 times
+        1616671 (21.28%) aligned exactly 1 time
+        4742710 (62.43%) aligned >1 times
+98.31% overall alignment rate
+Converting and sorting BAM in one step...
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+Pipeline completed successfully!
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+32303404 reads; of these:
+  32303404 (100.00%) were paired; of these:
+    453395 (1.40%) aligned concordantly 0 times
+    19734775 (61.09%) aligned concordantly exactly 1 time
+    12115234 (37.50%) aligned concordantly >1 times
+    ----
+    453395 pairs aligned concordantly 0 times; of these:
+      130457 (28.77%) aligned discordantly 1 time
+    ----
+    322938 pairs aligned 0 times concordantly or discordantly; of these:
+      645876 mates make up the pairs; of these:
+        283650 (43.92%) aligned 0 times
+        82331 (12.75%) aligned exactly 1 time
+        279895 (43.34%) aligned >1 times
+99.56% overall alignment rate
+Converting and sorting BAM in one step...
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+58555542 reads; of these:
+  58555542 (100.00%) were paired; of these:
+    826481 (1.41%) aligned concordantly 0 times
+    37878768 (64.69%) aligned concordantly exactly 1 time
+    19850293 (33.90%) aligned concordantly >1 times
+    ----
+    826481 pairs aligned concordantly 0 times; of these:
+      145373 (17.59%) aligned discordantly 1 time
+    ----
+    681108 pairs aligned 0 times concordantly or discordantly; of these:
+      1362216 mates make up the pairs; of these:
+        676528 (49.66%) aligned 0 times
+        288436 (21.17%) aligned exactly 1 time
+        397252 (29.16%) aligned >1 times
+99.42% overall alignment rate
+Converting and sorting BAM in one step...
+Indexing BAM file...
+/opt/packages/samtools/1.21/samtools: line 26: 27853 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+Indexing BAM file...
+[E::hts_open_format] Failed to open file "SRR8861577.bam" : No such file or directory
+samtools index: failed to open "SRR8861577.bam": No such file or directory
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[E::hts_open_format] Failed to open file "SRR8861577.bam" : No such file or directory
+[mpileup] failed to open SRR8861577.bam: No such file or directory
+Failed to read from standard input: unknown file type
+Converting BCF to VCF...
+[E::hts_open_format] Failed to open file "SRR8861577.bcf" : No such file or directory
+Failed to read from SRR8861577.bcf: No such file or directory
+Compressing and indexing VCF...
+[bgzip] No such file or directory: SRR8861577.vcf
+index: the file is not BGZF compressed, cannot index: SRR8861577.vcf.gz
+Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435474.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+Indexing BAM file...
+Indexing BAM file...
+Converting BCF to VCF...
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+Compressing and indexing VCF...
+Pipeline completed successfully!
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+61964740 reads; of these:
+  61964740 (100.00%) were paired; of these:
+    855774 (1.38%) aligned concordantly 0 times
+    39541098 (63.81%) aligned concordantly exactly 1 time
+    21567868 (34.81%) aligned concordantly >1 times
+    ----
+    855774 pairs aligned concordantly 0 times; of these:
+      134973 (15.77%) aligned discordantly 1 time
+    ----
+    720801 pairs aligned 0 times concordantly or discordantly; of these:
+      1441602 mates make up the pairs; of these:
+        766689 (53.18%) aligned 0 times
+        274399 (19.03%) aligned exactly 1 time
+        400514 (27.78%) aligned >1 times
+99.38% overall alignment rate
+Converting and sorting BAM in one step...
+/opt/packages/samtools/1.21/samtools: line 26: 59940 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+Indexing BAM file...
+[E::hts_open_format] Failed to open file "SRR8861578.bam" : No such file or directory
+samtools index: failed to open "SRR8861578.bam": No such file or directory
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[E::hts_open_format] Failed to open file "SRR8861578.bam" : No such file or directory
+[mpileup] failed to open SRR8861578.bam: No such file or directory
+Failed to read from standard input: unknown file type
+Converting BCF to VCF...
+[E::hts_open_format] Failed to open file "SRR8861578.bcf" : No such file or directory
+Failed to read from SRR8861578.bcf: No such file or directory
+Compressing and indexing VCF...
+[bgzip] No such file or directory: SRR8861578.vcf
+index: the file is not BGZF compressed, cannot index: SRR8861578.vcf.gz
+Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435475.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+60768601 reads; of these:
+  60768601 (100.00%) were paired; of these:
+    969535 (1.60%) aligned concordantly 0 times
+    38400324 (63.19%) aligned concordantly exactly 1 time
+    21398742 (35.21%) aligned concordantly >1 times
+    ----
+    969535 pairs aligned concordantly 0 times; of these:
+      171250 (17.66%) aligned discordantly 1 time
+    ----
+    798285 pairs aligned 0 times concordantly or discordantly; of these:
+      1596570 mates make up the pairs; of these:
+        772836 (48.41%) aligned 0 times
+        322951 (20.23%) aligned exactly 1 time
+        500783 (31.37%) aligned >1 times
+99.36% overall alignment rate
+Converting and sorting BAM in one step...
+51376555 reads; of these:
+  51376555 (100.00%) were paired; of these:
+    1424902 (2.77%) aligned concordantly 0 times
+    31877412 (62.05%) aligned concordantly exactly 1 time
+    18074241 (35.18%) aligned concordantly >1 times
+    ----
+    1424902 pairs aligned concordantly 0 times; of these:
+      372492 (26.14%) aligned discordantly 1 time
+    ----
+    1052410 pairs aligned 0 times concordantly or discordantly; of these:
+      2104820 mates make up the pairs; of these:
+        908834 (43.18%) aligned 0 times
+        418434 (19.88%) aligned exactly 1 time
+        777552 (36.94%) aligned >1 times
+99.12% overall alignment rate
+Converting and sorting BAM in one step...
+63973520 reads; of these:
+  63973520 (100.00%) were paired; of these:
+    915830 (1.43%) aligned concordantly 0 times
+    41360716 (64.65%) aligned concordantly exactly 1 time
+    21696974 (33.92%) aligned concordantly >1 times
+    ----
+    915830 pairs aligned concordantly 0 times; of these:
+      135649 (14.81%) aligned discordantly 1 time
+    ----
+    780181 pairs aligned 0 times concordantly or discordantly; of these:
+      1560362 mates make up the pairs; of these:
+        832680 (53.36%) aligned 0 times
+        304018 (19.48%) aligned exactly 1 time
+        423664 (27.15%) aligned >1 times
+99.35% overall alignment rate
+Converting and sorting BAM in one step...
+/opt/packages/samtools/1.21/samtools: line 26: 24292 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+57646791 reads; of these:
+  57646791 (100.00%) were paired; of these:
+    1192729 (2.07%) aligned concordantly 0 times
+    34783763 (60.34%) aligned concordantly exactly 1 time
+    21670299 (37.59%) aligned concordantly >1 times
+    ----
+    1192729 pairs aligned concordantly 0 times; of these:
+      117828 (9.88%) aligned discordantly 1 time
+    ----
+    1074901 pairs aligned 0 times concordantly or discordantly; of these:
+      2149802 mates make up the pairs; of these:
+        1490996 (69.36%) aligned 0 times
+        262923 (12.23%) aligned exactly 1 time
+        395883 (18.41%) aligned >1 times
+98.71% overall alignment rate
+Converting and sorting BAM in one step...
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+Indexing BAM file...
+[E::hts_open_format] Failed to open file "SRR8861583.bam" : No such file or directory
+samtools index: failed to open "SRR8861583.bam": No such file or directory
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[E::hts_open_format] Failed to open file "SRR8861583.bam" : No such file or directory
+[mpileup] failed to open SRR8861583.bam: No such file or directory
+Failed to read from standard input: unknown file type
+Converting BCF to VCF...
+[E::hts_open_format] Failed to open file "SRR8861583.bcf" : No such file or directory
+Failed to read from SRR8861583.bcf: No such file or directory
+Compressing and indexing VCF...
+[bgzip] No such file or directory: SRR8861583.vcf
+index: the file is not BGZF compressed, cannot index: SRR8861583.vcf.gz
+Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435484.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+/opt/packages/samtools/1.21/samtools: line 26: 86342 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+Indexing BAM file...
+[bam_sort_core] merging from 0 files and 16 in-memory blocks...
+[E::hts_open_format] Failed to open file "SRR8861585.bam" : No such file or directory
+samtools index: failed to open "SRR8861585.bam": No such file or directory
+Calling SNPs with BCFtools...
+60812458 reads; of these:
+  60812458 (100.00%) were paired; of these:
+    811100 (1.33%) aligned concordantly 0 times
+    38240225 (62.88%) aligned concordantly exactly 1 time
+    21761133 (35.78%) aligned concordantly >1 times
+    ----
+    811100 pairs aligned concordantly 0 times; of these:
+      141253 (17.41%) aligned discordantly 1 time
+    ----
+    669847 pairs aligned 0 times concordantly or discordantly; of these:
+      1339694 mates make up the pairs; of these:
+        567850 (42.39%) aligned 0 times
+        301588 (22.51%) aligned exactly 1 time
+        470256 (35.10%) aligned >1 times
+99.53% overall alignment rate
+Converting and sorting BAM in one step...
+Indexing BAM file...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+64778466 reads; of these:
+  64778466 (100.00%) were paired; of these:
+    951901 (1.47%) aligned concordantly 0 times
+    39693032 (61.28%) aligned concordantly exactly 1 time
+    24133533 (37.26%) aligned concordantly >1 times
+    ----
+    951901 pairs aligned concordantly 0 times; of these:
+      134281 (14.11%) aligned discordantly 1 time
+    ----
+    817620 pairs aligned 0 times concordantly or discordantly; of these:
+      1635240 mates make up the pairs; of these:
+        831452 (50.85%) aligned 0 times
+        318715 (19.49%) aligned exactly 1 time
+        485073 (29.66%) aligned >1 times
+99.36% overall alignment rate
+Converting and sorting BAM in one step...
+58911515 reads; of these:
+  58911515 (100.00%) were paired; of these:
+    772102 (1.31%) aligned concordantly 0 times
+    36735587 (62.36%) aligned concordantly exactly 1 time
+    21403826 (36.33%) aligned concordantly >1 times
+    ----
+    772102 pairs aligned concordantly 0 times; of these:
+      124108 (16.07%) aligned discordantly 1 time
+    ----
+    647994 pairs aligned 0 times concordantly or discordantly; of these:
+      1295988 mates make up the pairs; of these:
+        615955 (47.53%) aligned 0 times
+        259743 (20.04%) aligned exactly 1 time
+        420290 (32.43%) aligned >1 times
+99.48% overall alignment rate
+Converting and sorting BAM in one step...
+[E::hts_open_format] Failed to open file "SRR8861585.bam" : No such file or directory
+[mpileup] failed to open SRR8861585.bam: No such file or directory
+Failed to read from standard input: unknown file type
+Converting BCF to VCF...
+59804549 reads; of these:
+  59804549 (100.00%) were paired; of these:
+    1030037 (1.72%) aligned concordantly 0 times
+    38096766 (63.70%) aligned concordantly exactly 1 time
+    20677746 (34.58%) aligned concordantly >1 times
+    ----
+    1030037 pairs aligned concordantly 0 times; of these:
+      206321 (20.03%) aligned discordantly 1 time
+    ----
+    823716 pairs aligned 0 times concordantly or discordantly; of these:
+      1647432 mates make up the pairs; of these:
+        804243 (48.82%) aligned 0 times
+        303598 (18.43%) aligned exactly 1 time
+        539591 (32.75%) aligned >1 times
+99.33% overall alignment rate
+Converting and sorting BAM in one step...
+[E::hts_open_format] Failed to open file "SRR8861585.bcf" : No such file or directory
+Failed to read from SRR8861585.bcf: No such file or directory
+Compressing and indexing VCF...
+Indexing BAM file...
+[bgzip] No such file or directory: SRR8861585.vcf
+/opt/packages/samtools/1.21/samtools: line 26: 23615 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+Indexing BAM file...
+Calling SNPs with BCFtools...
+/opt/packages/samtools/1.21/samtools: line 26: 102565 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+Indexing BAM file...
+/opt/packages/samtools/1.21/samtools: line 26: 32114 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+index: the file is not BGZF compressed, cannot index: SRR8861585.vcf.gz
+Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435541.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+/opt/packages/samtools/1.21/samtools: line 26: 87915 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+[E::hts_open_format] Failed to open file "SRR8861582.bam" : No such file or directory
+samtools index: failed to open "SRR8861582.bam": No such file or directory
+Calling SNPs with BCFtools...
+Indexing BAM file...
+Indexing BAM file...
+60848757 reads; of these:
+  60848757 (100.00%) were paired; of these:
+    1099137 (1.81%) aligned concordantly 0 times
+    36640418 (60.22%) aligned concordantly exactly 1 time
+    23109202 (37.98%) aligned concordantly >1 times
+    ----
+    1099137 pairs aligned concordantly 0 times; of these:
+      237482 (21.61%) aligned discordantly 1 time
+    ----
+    861655 pairs aligned 0 times concordantly or discordantly; of these:
+      1723310 mates make up the pairs; of these:
+        569665 (33.06%) aligned 0 times
+        439282 (25.49%) aligned exactly 1 time
+        714363 (41.45%) aligned >1 times
+99.53% overall alignment rate
+Converting and sorting BAM in one step...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[E::hts_open_format] Failed to open file "SRR8861576.bam" : No such file or directory
+samtools index: failed to open "SRR8861576.bam": No such file or directory
+Calling SNPs with BCFtools...
+[E::hts_open_format] Failed to open file "SRR8861582.bam" : No such file or directory
+[mpileup] failed to open SRR8861582.bam: No such file or directory
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+[E::hts_open_format] Failed to open file "SRR8861584.bam" : No such file or directory
+samtools index: failed to open "SRR8861584.bam": No such file or directory
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Failed to read from standard input: unknown file type
+Converting BCF to VCF...
+[E::hts_open_format] Failed to open file "SRR8861588.bam" : No such file or directory
+samtools index: failed to open "SRR8861588.bam": No such file or directory
+Calling SNPs with BCFtools...
+Calling SNPs with BCFtools...
+65761385 reads; of these:
+  65761385 (100.00%) were paired; of these:
+    898382 (1.37%) aligned concordantly 0 times
+    40227886 (61.17%) aligned concordantly exactly 1 time
+    24635117 (37.46%) aligned concordantly >1 times
+    ----
+    898382 pairs aligned concordantly 0 times; of these:
+      129801 (14.45%) aligned discordantly 1 time
+    ----
+    768581 pairs aligned 0 times concordantly or discordantly; of these:
+      1537162 mates make up the pairs; of these:
+        765076 (49.77%) aligned 0 times
+        294671 (19.17%) aligned exactly 1 time
+        477415 (31.06%) aligned >1 times
+99.42% overall alignment rate
+Converting and sorting BAM in one step...
+[E::hts_open_format] Failed to open file "SRR8861584.bam" : No such file or directory
+[mpileup] failed to open SRR8861584.bam: No such file or directory
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[E::hts_open_format] Failed to open file "SRR8861576.bam" : No such file or directory
+[mpileup] failed to open SRR8861576.bam: No such file or directory
+Failed to read from standard input: unknown file type
+Converting BCF to VCF...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Failed to read from standard input: unknown file type
+Converting BCF to VCF...
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[E::hts_open_format] Failed to open file "SRR8861588.bam" : No such file or directory
+[mpileup] failed to open SRR8861588.bam: No such file or directory
+Failed to read from standard input: unknown file type
+Converting BCF to VCF...
+[E::hts_open_format] Failed to open file "SRR8861582.bcf" : No such file or directory
+Failed to read from SRR8861582.bcf: No such file or directory
+Compressing and indexing VCF...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[E::hts_open_format] Failed to open file "SRR8861588.bcf" : No such file or directory
+Failed to read from SRR8861588.bcf: No such file or directory
+Compressing and indexing VCF...
+[E::hts_open_format] Failed to open file "SRR8861576.bcf" : No such file or directory
+Failed to read from SRR8861576.bcf: No such file or directory
+Compressing and indexing VCF...
+[bgzip] No such file or directory: SRR8861582.vcf
+[E::hts_open_format] Failed to open file "SRR8861584.bcf" : No such file or directory
+Failed to read from SRR8861584.bcf: No such file or directory
+Compressing and indexing VCF...
+/opt/packages/samtools/1.21/samtools: line 26: 75884 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+57965544 reads; of these:
+  57965544 (100.00%) were paired; of these:
+    786184 (1.36%) aligned concordantly 0 times
+    34237694 (59.07%) aligned concordantly exactly 1 time
+    22941666 (39.58%) aligned concordantly >1 times
+    ----
+    786184 pairs aligned concordantly 0 times; of these:
+      105723 (13.45%) aligned discordantly 1 time
+    ----
+    680461 pairs aligned 0 times concordantly or discordantly; of these:
+      1360922 mates make up the pairs; of these:
+        624771 (45.91%) aligned 0 times
+        274825 (20.19%) aligned exactly 1 time
+        461326 (33.90%) aligned >1 times
+99.46% overall alignment rate
+Converting and sorting BAM in one step...
+Indexing BAM file...
+[bgzip] No such file or directory: SRR8861584.vcf
+index: the file is not BGZF compressed, cannot index: SRR8861582.vcf.gz
+Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435483.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+[bgzip] No such file or directory: SRR8861588.vcf
+[bgzip] No such file or directory: SRR8861576.vcf
+/opt/packages/samtools/1.21/samtools: line 26: 65479 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+index: the file is not BGZF compressed, cannot index: SRR8861588.vcf.gz
+Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435545.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+[E::hts_open_format] Failed to open file "SRR8861581.bam" : No such file or directory
+samtools index: failed to open "SRR8861581.bam": No such file or directory
+Calling SNPs with BCFtools...
+index: the file is not BGZF compressed, cannot index: SRR8861584.vcf.gz
+Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435540.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+Indexing BAM file...
+index: the file is not BGZF compressed, cannot index: SRR8861576.vcf.gz
+Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435467.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+[E::hts_open_format] Failed to open file "SRR8861581.bam" : No such file or directory
+[mpileup] failed to open SRR8861581.bam: No such file or directory
+[E::hts_open_format] Failed to open file "SRR8861589.bam" : No such file or directory
+samtools index: failed to open "SRR8861589.bam": No such file or directory
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Failed to read from standard input: unknown file type
+Converting BCF to VCF...
+[E::hts_open_format] Failed to open file "SRR8861589.bam" : No such file or directory
+[mpileup] failed to open SRR8861589.bam: No such file or directory
+/opt/packages/samtools/1.21/samtools: line 26: 102299 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+Indexing BAM file...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Failed to read from standard input: unknown file type
+Converting BCF to VCF...
+[E::hts_open_format] Failed to open file "SRR8861581.bcf" : No such file or directory
+Failed to read from SRR8861581.bcf: No such file or directory
+Compressing and indexing VCF...
+[E::hts_open_format] Failed to open file "SRR8861589.bcf" : No such file or directory
+Failed to read from SRR8861589.bcf: No such file or directory
+Compressing and indexing VCF...
+[bgzip] No such file or directory: SRR8861581.vcf
+[bgzip] No such file or directory: SRR8861589.vcf
+index: the file is not BGZF compressed, cannot index: SRR8861581.vcf.gz
+Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435481.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+Calling SNPs with BCFtools...
+index: the file is not BGZF compressed, cannot index: SRR8861589.vcf.gz
+Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435548.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+61617401 reads; of these:
+  61617401 (100.00%) were paired; of these:
+    886006 (1.44%) aligned concordantly 0 times
+    37319432 (60.57%) aligned concordantly exactly 1 time
+    23411963 (38.00%) aligned concordantly >1 times
+    ----
+    886006 pairs aligned concordantly 0 times; of these:
+      51037 (5.76%) aligned discordantly 1 time
+    ----
+    834969 pairs aligned 0 times concordantly or discordantly; of these:
+      1669938 mates make up the pairs; of these:
+        1191839 (71.37%) aligned 0 times
+        194780 (11.66%) aligned exactly 1 time
+        283319 (16.97%) aligned >1 times
+99.03% overall alignment rate
+Converting and sorting BAM in one step...
+/opt/packages/samtools/1.21/samtools: line 26: 49971 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+Indexing BAM file...
+78417045 reads; of these:
+  78417045 (100.00%) were paired; of these:
+    1758292 (2.24%) aligned concordantly 0 times
+    48925669 (62.39%) aligned concordantly exactly 1 time
+    27733084 (35.37%) aligned concordantly >1 times
+    ----
+    1758292 pairs aligned concordantly 0 times; of these:
+      323603 (18.40%) aligned discordantly 1 time
+    ----
+    1434689 pairs aligned 0 times concordantly or discordantly; of these:
+      2869378 mates make up the pairs; of these:
+        1295479 (45.15%) aligned 0 times
+        611226 (21.30%) aligned exactly 1 time
+        962673 (33.55%) aligned >1 times
+99.17% overall alignment rate
+Converting and sorting BAM in one step...
+[E::hts_open_format] Failed to open file "SRR8861592.bam" : No such file or directory
+samtools index: failed to open "SRR8861592.bam": No such file or directory
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[E::hts_open_format] Failed to open file "SRR8861592.bam" : No such file or directory
+[mpileup] failed to open SRR8861592.bam: No such file or directory
+Failed to read from standard input: unknown file type
+Converting BCF to VCF...
+[E::hts_open_format] Failed to open file "SRR8861592.bcf" : No such file or directory
+Failed to read from SRR8861592.bcf: No such file or directory
+Compressing and indexing VCF...
+[bgzip] No such file or directory: SRR8861592.vcf
+/opt/packages/samtools/1.21/samtools: line 26: 47493 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+Indexing BAM file...
+index: the file is not BGZF compressed, cannot index: SRR8861592.vcf.gz
+Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435567.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+[E::hts_open_format] Failed to open file "SRR8861579.bam" : No such file or directory
+samtools index: failed to open "SRR8861579.bam": No such file or directory
+Calling SNPs with BCFtools...
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[E::hts_open_format] Failed to open file "SRR8861579.bam" : No such file or directory
+[mpileup] failed to open SRR8861579.bam: No such file or directory
+Failed to read from standard input: unknown file type
+Converting BCF to VCF...
+[E::hts_open_format] Failed to open file "SRR8861579.bcf" : No such file or directory
+Failed to read from SRR8861579.bcf: No such file or directory
+Compressing and indexing VCF...
+[bgzip] No such file or directory: SRR8861579.vcf
+index: the file is not BGZF compressed, cannot index: SRR8861579.vcf.gz
+Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435477.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+71783314 reads; of these:
+  71783314 (100.00%) were paired; of these:
+    856195 (1.19%) aligned concordantly 0 times
+    44071646 (61.40%) aligned concordantly exactly 1 time
+    26855473 (37.41%) aligned concordantly >1 times
+    ----
+    856195 pairs aligned concordantly 0 times; of these:
+      105884 (12.37%) aligned discordantly 1 time
+    ----
+    750311 pairs aligned 0 times concordantly or discordantly; of these:
+      1500622 mates make up the pairs; of these:
+        824631 (54.95%) aligned 0 times
+        259324 (17.28%) aligned exactly 1 time
+        416667 (27.77%) aligned >1 times
+99.43% overall alignment rate
+Converting and sorting BAM in one step...
+/opt/packages/samtools/1.21/samtools: line 26: 81604 Killed                  singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+Indexing BAM file...
+[E::hts_open_format] Failed to open file "SRR8861594.bam" : No such file or directory
+samtools index: failed to open "SRR8861594.bam": No such file or directory
 Calling SNPs with BCFtools...
 Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
 [E::hts_open_format] Failed to open file "SRR8861594.bam" : No such file or directory
@@ -8,221 +1003,71 @@ Converting BCF to VCF...
 [E::hts_open_format] Failed to open file "SRR8861594.bcf" : No such file or directory
 Failed to read from SRR8861594.bcf: No such file or directory
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398245/slurm_script: line 29: bgzip: command not found
+[bgzip] No such file or directory: SRR8861594.vcf
 index: the file is not BGZF compressed, cannot index: SRR8861594.vcf.gz
 Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30430389.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398401/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311849.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398374/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311832.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398263/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311815.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398373/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311831.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398265/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311819.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398381/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311837.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398262/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311813.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398372/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311828.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398394/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311846.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398367/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311822.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398264/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311817.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398391/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311842.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398395/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311847.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398505/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR24172360.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398382/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311839.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398402/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311852.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398392/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311843.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398378/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311836.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398368/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311824.vcf.gz
 Pipeline completed successfully!
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398377/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15311834.vcf.gz
 Pipeline completed successfully!
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30435558.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
 Converting BCF to VCF...
 Compressing and indexing VCF...
-/var/spool/slurm/d/job30398607/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR24181836.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398612/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR24182389.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398608/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR24181839.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398254/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15236557.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398259/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15236563.vcf.gz
-Pipeline completed successfully!
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398260/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15236565.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398258/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15236562.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398619/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR26406903.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398616/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR26406898.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398720/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR8861590.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398613/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR26406885.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398662/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR8861580.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398617/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR26406900.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398622/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR26406909.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398261/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR15276973.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398655/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR26406914.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398618/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR26406901.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398614/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR26406890.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398721/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR8861591.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398615/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR26406892.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398624/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR26406912.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398621/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR26406907.vcf.gz
-Pipeline completed successfully!
-Converting BCF to VCF...
-Compressing and indexing VCF...
-/var/spool/slurm/d/job30398620/slurm_script: line 29: bgzip: command not found
-index: the file is not BGZF compressed, cannot index: SRR26406904.vcf.gz
 Pipeline completed successfully!
