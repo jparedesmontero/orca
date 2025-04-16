@@ -165,8 +165,48 @@ for vcf in *.merged.vcf.gz; do
     -a "$vcf" \
     -b annotations.gff > ${prefix}.annotated.tsv
 done
-
 ```
+
+# Obtain Tajima's D per gene per merged file
+- Creating bed file
+```
+awk '$3=="gene" { print $1"\t"$4-1"\t"$5"\t"$9 }' annotations.gff > genes.bed
+```
+- Calculating pi diversity per 1000 bp windows
+```
+vi pi.sh
+```
+- Type I and paste
+```
+mkdir -p pi_window_output
+
+for vcf in *.merged.vcf.gz; do
+    base=$(basename "$vcf" .merged.vcf.gz)
+    echo "Calculating nucleotide diversity for $base in 1000bp windows..."
+    vcftools --gzvcf "$vcf" \
+             --window-pi 1000 \
+             --window-pi-step 1000 \
+             --out pi_window_output/"$base"
+done
+```
+- Calculating Tajima's D
+```
+vi tajd.sh
+```
+- Type I and paste
+```
+#!/bin/bash
+module load vcftools/0.1.16
+for vcf in *.merged.vcf.gz; do
+    base=$(basename "$vcf" .merged.vcf.gz)
+    echo "Calculating nucleotide diversity for $base..."
+    vcftools --gzvcf "$vcf" \
+             --bed genes.bed \
+             --site-pi \
+             --out "$base"
+done
+```
+
 
 
 # make BED of gene region
@@ -184,21 +224,27 @@ pop1.txt
 pop2.txt
 
 # Install dependencies 
+```
 pip install scikit-allel numpy pandas
+```
 
 # The script 
+```
 #!/usr/bin/env python3
 import allel
 import numpy as np
 import pandas as pd
 import sys
+```
 
 # --- User parameters ---
+```
 vcf_path   = 'input.vcf.gz'
 genes_bed  = 'genes.bed'
 pop1_file  = 'pop1.txt'
 pop2_file  = 'pop2.txt'
 out_csv    = 'gene_fst.csv'
+```
 # -----------------------
 
 # Load sample lists
@@ -206,11 +252,13 @@ pop1 = [s.strip() for s in open(pop1_file) if s.strip()]
 pop2 = [s.strip() for s in open(pop2_file) if s.strip()]
 
 # Read gene coordinates
+```
 genes = pd.read_csv(genes_bed, sep='\t',
                     names=['chrom','start','end','gene'],
                     dtype={'chrom':str, 'start':int, 'end':int, 'gene':str})
-
+```
 # Read VCF (only once!)
+```
 print("Loading VCF…")
 callset = allel.read_vcf(vcf_path,
                           fields=['samples','calldata/GT','variants/CHROM','variants/POS'])
@@ -218,6 +266,7 @@ samples   = callset['samples']
 genos     = allel.GenotypeArray(callset['calldata/GT'])
 chroms    = callset['variants/CHROM']
 positions = callset['variants/POS']
+```
 
 # Map sample names → indices
 pop1_idx = [i for i,s in enumerate(samples) if s in pop1]
