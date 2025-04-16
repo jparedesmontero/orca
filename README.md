@@ -179,7 +179,8 @@ vi pi.sh
 - Type I and paste
 ```
 mkdir -p pi_window_output
-
+module load vcftools/0.1.16
+module load htslib
 for vcf in *.merged.vcf.gz; do
     base=$(basename "$vcf" .merged.vcf.gz)
     echo "Calculating nucleotide diversity for $base in 1000bp windows..."
@@ -196,14 +197,17 @@ vi tajd.sh
 - Type I and paste
 ```
 #!/bin/bash
+
+mkdir -p tajimaD_output
 module load vcftools/0.1.16
+module load htslib
 for vcf in *.merged.vcf.gz; do
     base=$(basename "$vcf" .merged.vcf.gz)
-    echo "Calculating nucleotide diversity for $base..."
+    echo "Calculating Tajima's D for $base in 1000 bp windows..."
+
     vcftools --gzvcf "$vcf" \
-             --bed genes.bed \
-             --site-pi \
-             --out "$base"
+             --TajimaD 1000 \
+             --out tajimaD_output/"$base"
 done
 ```
 
