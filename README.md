@@ -44,7 +44,7 @@ vim assembly.slurm
 #!/bin/bash
 #SBATCH --job-name=orca_genome_assembly
 #SBATCH --cpus-per-task=16
-#SBATCH --mem=32G
+#SBATCH --mem=40G
 #SBATCH --array=0-58
 #SBATCH --time=1-00:00:00
 #SBATCH --output=logs/bowtie.out
@@ -66,7 +66,7 @@ module load bcftools
 module load htslib
 
 echo "Converting and Sorting BAM in one step..."
-samtools view -@ 16 -bS ${SAMPLE}.sam | samtools sort -@ 16 -m 16G -T /scratch/tmp_sort -o ${SAMPLE}.bam
+samtools view -@ 8 -bS ${SAMPLE}.sam | samtools sort -@ 8 -m 4G -T /scratch/tmp_sort -o ${SAMPLE}.bam
 rm ${SAMPLE}.sam
 
 echo "Indexing BAM file..."
