@@ -100,7 +100,61 @@ mv GCF_937001465.1_mOrcOrc1.1_genomic.gff annotations.gff
 ```
 ---
 # Index VCF files 
-tabix -p vcf input.vcf.gz
+module load bcftools
+module load htslib
+tabix -f -p vcf *.vcf.gz
+
+# Make sure you have the metadata.tsv file in your current directory (file can be downloaded from this repository
+# Make sure you have working vcf files (not empty)
+# Make sure you have the annotations.gff file
+
+# Merge vcf files
+```
+vi merge_vcfs_from_csv.sh
+```
+- Type i and paste:
+```
+#!/bin/bash
+
+module load bcftools
+
+META="metadata.csv"  # Updated filename if changed
+
+# Extract unique ecotypes from the cleaned metadata
+ecotypes=$(awk -F',' 'NR > 1 { print $4 }' "$META" | sort | uniq)
+
+for ecotype in $ecotypes; do
+    echo "Merging VCFs for ecotype: $ecotype"
+
+    # All ecotype labels are now already filename-safe
+    label="$ecotype"
+
+    # Get all sample IDs for this ecotype
+    sample_ids=$(awk -F',' -v e="$ecotype" 'NR > 1 && $4 == e { print $1 }' "$META")
+
+    vcf_list=""
+    for id in $sample_ids; do
+        vcf_file="${id}.vcf.gz"
+        if [[ -f "$vcf_file" ]]; then
+            vcf_list="$vcf_list $vcf_file"
+        else
+            echo "Skipping: $vcf_file not found"
+        fi
+    done
+
+    if [[ -z "$vcf_list" ]]; then
+        echo "No VCFs found for ecotype: $ecotype"
+        continue
+    fi
+
+    echo "Merging into: ${label}.merged.vcf.gz"
+    bcftools merge -m all -Oz -o "${label}.merged.vcf.gz" $vcf_list
+    bcftools index "${label}.merged.vcf.gz"
+done
+
+echo "All ecotype-based merges completed."
+
+```
 
 # make BED of gene region
 # extract only gene lines, convert to 0‑based BED
