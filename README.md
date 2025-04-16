@@ -118,7 +118,7 @@ vi merge_vcfs_from_csv.sh
 
 module load bcftools
 
-META="metadata.csv"  # Updated filename if changed
+META="metadata.tsv"  # Updated filename if changed
 
 # Extract unique ecotypes from the cleaned metadata
 ecotypes=$(awk -F',' 'NR > 1 { print $4 }' "$META" | sort | uniq)
