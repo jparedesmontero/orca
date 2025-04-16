@@ -155,6 +155,19 @@ done
 echo "All ecotype-based merges completed."
 
 ```
+# Annotate vcfs
+```
+module load bedtools/2.30.0
+
+for vcf in *.merged.vcf.gz; do
+  prefix=$(basename "$vcf" .merged.vcf.gz)
+  bedtools intersect -header -wa -wb \
+    -a "$vcf" \
+    -b annotations.gff > ${prefix}.annotated.tsv
+done
+
+```
+
 
 # make BED of gene region
 # extract only gene lines, convert to 0‑based BED
